@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>PATRONES DE DISEÑO</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+
+
+			<div class="slides">
+				<section data-background-image="https://static.vecteezy.com/system/resources/previews/007/718/172/non_2x/blue-hexagonal-technology-on-dark-background-free-vector.jpg">
+					<a href="https://refactoring.guru/es/design-patterns">
+						<img src="https://gestion.pe/resizer/k54k8PHroBs2vUOMbz6qlk7BYC8=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ALLHYA2NKZDO7HUINBJUWK453U.jpg" alt="reveal.js logo" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>PATRONES DE DISEÑO</h3>
+					<p>
+						<small>Creado por <a href="https://refactoring.guru/es/design-patterns"> Jhonatan Camacho </a> and <a href="https://refactoring.guru/es/design-patterns">contributors</a></small>
+					</p>
+				</section>
+			</section>
+			<section>
+				<section data-background-image="https://img.freepik.com/vector-premium/resplandor-abstracto-fondo-oscuro-tecnologia-placa-circuito_33403-64.jpg">
+					<h2>DEFINICION DE PATRONES DE DISEÑO</h2>
+					<p>Los patrones de diseño son soluciones habituales a problemas que ocurren con frecuencia en el diseño de software. Son como planos prefabricados que se pueden personalizar para resolver un problema de diseño recurrente en tu código.
+
+						No se puede elegir un patrón y copiarlo en el programa como si se tratara de funciones o bibliotecas ya preparadas. El patrón no es una porción específica de código, sino un concepto general para resolver un problema particular. </p>
+					<br>
+				</section>
+				<section data-background-image="https://img.freepik.com/vector-premium/resplandor-abstracto-fondo-oscuro-tecnologia-placa-circuito_33403-64.jpg">
+					<h2>Características</h2>
+					<p>La mayoría de los patrones se describe con mucha formalidad para que la gente pueda reproducirlos en muchos contextos. Aquí tienes las secciones que suelen estar presentes en la descripción de un patrón:</p>
+					
+				</section>
+				<section data-background-image="https://img.freepik.com/vector-premium/resplandor-abstracto-fondo-oscuro-tecnologia-placa-circuito_33403-64.jpg">
+					<h2></h2>
+					<ul>
+						<li>El propósito del patrón explica brevemente el problema y la solución.</li>
+						<li>La motivación explica en más detalle el problema y la solución que brinda el patrón.</li>
+						<li>La estructura de las clases muestra cada una de las partes del patrón y el modo en que se relacionan.</li>
+						<li>El ejemplo de código en uno de los lenguajes de programación populares facilita la asimilación de la idea que se esconde tras el patrón.</li>
+						
+					</ul>
+				</section>
+				<section data-background-image="https://img.freepik.com/vector-premium/resplandor-abstracto-fondo-oscuro-tecnologia-placa-circuito_33403-64.jpg">
+					<div class="r-stack">
+						<img class="fragment" src="https://edteam-media.s3.amazonaws.com/infographics/original/48356f9b-7c43-4437-8594-48eb92e858f0.png" width="500" height="400">
+						<img class="fragment" src="https://refactoring.guru/images/patterns/content/index/patterns-i3.png?id=8acb54bc13ec54391a2a450330f9106a" width="300" height="300">
+					  </div>
+				</section>
+
+			</section>
+				<section>
+					<section data-background-image="https://img.freepik.com/vector-gratis/fondo-tecnologia-negro-degradado_23-2149209060.jpg">
+						<h2>Patrones de Creación</h2>
+						<p>Definen cómo puede crearse un objeto. Habitualmente esto incluye aislar los detalles de la creación del objeto, de forma que su código no dependa de los tipos de objeto que hay y, por lo tanto, no deba se modificado al añadir un nuevo tipo de objeto.</p>
+						<br>
+						<img src="https://0701.static.prezi.com/preview/v2/eu2lk4pgtmoqhmurrpadyxhuid6jc3sachvcdoaizecfr3dnitcq_3_0.png" alt="reveal.js logo" style="height: 200px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						
+					</section>
+					<section data-background-image="https://img.freepik.com/vector-gratis/fondo-tecnologia-negro-degradado_23-2149209060.jpg">
+						<h2></h2>
+						<ul>
+							<li>Singleton: Garantiza que una clase tenga solo una instancia y proporciona un punto de acceso global a ella.</li>
+							<br>
+							<li>Factory Method: Define una interfaz para crear un objeto, pero permite a las subclases alterar el tipo de objetos que se crearán.</li>
+							<br>
+							<li>Abstract Factory: Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.</li>	
+						</ul>
+
+					</section>
+					<section data-background-image="https://img.freepik.com/vector-gratis/fondo-tecnologia-negro-degradado_23-2149209060.jpg">
+						<ul>
+							<br>
+							<br>
+							<li>Builder: Se utiliza para construir un objeto complejo paso a paso. Permite crear diferentes representaciones del objeto. </li>
+							<br>
+							<li>Prototype: Permite crear nuevos objetos copiando un objeto existente, conocido como prototipo.</li>
+							<img class="fragment" src="https://novo.uss.cl/wp-content/uploads/2022/02/Definicion-prototipo.png" width="400" height="260">
+							<img class="fragment" src="https://blog.ida.cl/wp-content/uploads/sites/5/2022/07/Prototipos-para-aprender-y-mejorar-blog-1024x735.png" width="300" height="200">
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="https://c4.wallpaperflare.com/wallpaper/481/503/625/smoke-rays-light-shadow-wallpaper-preview.jpg">
+						<h2>PATRONES DE ESTRUCTURA</h2>
+						<p>Son patrones de diseño que facilitan el diseño al identificar una forma sencilla de realizar relaciones entre entidades.</p>
+						<img class="fragment" src="https://media.licdn.com/dms/image/C4E0DAQG27dwmwDwdsA/learning-public-crop_288_512/0/1626873073802?e=2147483647&v=beta&t=AFy5TdW1h4lIR1mpMhx5cDVBNeMT1Q5Hnjlm8afTc38" width="400" height="260">
+					</section>
+					
+					<section>
+						<ul>
+							<li>Adapter: Permite que interfaces incompatibles trabajen juntas.</li>
+							<br>
+							<li>Decorator: Agrega funcionalidad a un objeto existente de manera dinámica sin alterar su estructura.</li>
+							<br>
+							<li>Composite: Compone objetos en estructuras de árbol para representar jerarquías de parte-todo.</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<br> <br>
+							<li>Proxy: Proporciona un representante o sustituto de otro objeto para controlar el acceso a él.</li>
+							<br>
+							<li>Bridge: Separa una abstracción de su implementación, de modo que ambos puedan variar independientemente.</li>
+							
+						</ul>
+						<br>
+						<img src="https://www.grandespymes.com.ar/wp-content/uploads/2018/02/empresas-estructura.jpg" alt="reveal.js logo" style="height: 200px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+				</section>
+				
+
+				<section>
+					<section data-background-image="https://i.pinimg.com/originals/47/e4/76/47e4765a5834b8d1e94607b18bbbb795.jpg">
+						<h2>PATRONES DE COMPORTAMIENTO</h2>
+						<p>Tratan a los objetos que manejan tipos particulares de acciones dentro de un programa. Éstos encapsulan procesos debe ejecutarse dentro de la funcionalidad de la aplicación, como interpretar un lenguaje, completar una petición, moverse a través de una secuencia o implementar un algoritmo.</p>
+
+					</section>
+					<section data-background-image="https://i.pinimg.com/originals/47/e4/76/47e4765a5834b8d1e94607b18bbbb795.jpg">
+						<ul>
+							<li>Observer: Define una relación uno a muchos entre objetos para que cuando uno cambie su estado, todos los observadores sean notificados y actualizados automáticamente.</li>
+							<br>
+							<li>Command: Encapsula una solicitud como un objeto, lo que permite parametrizar clientes con operaciones, encolar solicitudes y realizar operaciones reversibles.</li>
+							
+						</ul>
+					</section>
+					<section data-background-image="https://i.pinimg.com/originals/47/e4/76/47e4765a5834b8d1e94607b18bbbb795.jpg">
+						<ul>
+							<li>Strategy: Define una familia de algoritmos, los encapsula y los hace intercambiables.</li>
+							<br>
+							<li>State: Permite que un objeto altere su comportamiento cuando su estado interno cambia.</li>
+							<br>
+							<li>Chain of Responsibility: Permite pasar solicitudes a lo largo de una cadena de manejadores. Cada manejador decide si procesa la solicitud o la pasa al siguiente en la cadena.</li>
+						</ul>
+							
+					</section>
+				</section>
+					
+
+					<section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)">
+							<h2>PATRONES DE ARQUITECTURA</h2>
+							<p>ofrecen soluciones a problemas de arquitectura de software en ingeniería de software. Dan una descripción de los elementos y el tipo de relación que tienen junto con un conjunto de restricciones sobre cómo pueden ser usados.</p>
+							
+						</section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)">
+							<ul>
+								<li>MVC (Model-View-Controller): Divide una aplicación en tres componentes principales: Modelo (datos y lógica), Vista (presentación) y Controlador (manejo de interacciones).</li>
+								<br>
+								<li>MVVM (Model-View-ViewModel): Similar al MVC, pero con un enfoque enlazado de datos en la interfaz de usuario.</li>
+								<br>
+								<li>DAO (Data Access Object): Encapsula la lógica de acceso a datos y proporciona una interfaz para interactuar con la base de datos.</li>
+							</ul>
+						</section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)">
+							<h2>MVC</h2>
+							<p>El patrón de diseño MVC (Model-View-Controller) es una arquitectura de software que se utiliza comúnmente en el desarrollo de aplicaciones web y de software en general. Su objetivo principal es separar las preocupaciones o responsabilidades dentro de una aplicación, lo que facilita la gestión del código y mejora la mantenibilidad.</p>
+
+						</section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)" >
+							<p>MODELO:
+
+								El Modelo representa los datos y la lógica de negocio de la aplicación.
+								Se encarga de gestionar los datos, la lógica de cómo se accede y modifica esos datos, y la validación de los mismos.
+								Los cambios en el Modelo pueden desencadenar actualizaciones en las vistas asociadas.</p>
+								<br>
+							<p>VISTA:
+
+								La Vista es la interfaz de usuario de la aplicación.
+								Se encarga de presentar los datos del Modelo al usuario y de recibir la entrada del usuario.</p>
+						</section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)" >
+							<p>CONTROLADOR:
+
+								El Controlador actúa como intermediario entre el Modelo y la Vista.
+								Recibe las interacciones del usuario desde la Vista y las procesa.
+								Luego, actualiza el Modelo según sea necesario y actualiza la Vista para reflejar los cambios en los datos.</p>
+								<br>
+								<img class="fragment" src="https://shreysharma.com/wp-content/uploads/2019/04/mvc.webp" width="400" height="260">
+						</section>
+						<section data-background-gradient="radial-gradient(circle 400px at left, gold 50%, red 55%, black 75%)" >
+							<p>La separación de estas responsabilidades facilita la modularidad y la reutilización del código, ya que cada componente tiene un propósito claro y puede ser modificado o reemplazado sin afectar necesariamente a los otros componentes. Además, el patrón MVC promueve una estructura organizada en la que el desarrollo y el mantenimiento de la aplicación son más manejables.</p>
+						</section>
+						
+							
+					</section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-hstack justify-center">
+							<div data-id="box1" data-auto-animate-delay="0" style="background: rgb(96, 191, 85); width: 150px; height: 100px; margin: 10px;"></div>
+							<div data-id="box2" data-auto-animate-delay="0.1" style="background: rgb(0, 0, 0); width: 150px; height: 100px; margin: 10px;"></div>
+							<div data-id="box3" data-auto-animate-delay="0.2" style="background: rgb(28, 87, 174); width: 150px; height: 100px; margin: 10px;"></div>
+						</div>
+						<h2 style="margin-top: 20px;">THE</h2>
+					</section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-stack">
+							<div data-id="box1" style="background: rgb(96, 191, 85); width: 300px; height: 300px; border-radius: 200px;"></div>
+							<div data-id="box2" style="background: rgb(0, 0, 0); width: 200px; height: 200px; border-radius: 200px;"></div>
+							<div data-id="box3" style="background: rgb(28, 87, 174); width: 100px; height: 100px; border-radius: 200px;"></div>
+						</div>
+						<h2 style="margin-top: 20px;">THE END</h2>
+					</section>
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
